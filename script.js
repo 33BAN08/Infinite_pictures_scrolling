@@ -11,7 +11,7 @@ let photosArray = [];
 // CHECK IF OBJECT LOADED
 function imageLoaded() {
     // console.log('image loaded');
-    imagesLoaded++;
+    imagesLoaded++
     // console.log(imagesLoaded);
     if (imagesLoaded === totalImages) {
       ready = true;
